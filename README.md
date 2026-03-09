@@ -46,7 +46,9 @@ Order model with embedded items and delivery info
 ### Prerequisites
 
 Node.js v18+
+
 MongoDB (local or Atlas)
+
 npm or yarn
 
 ## 1. Clone / navigate to the project
@@ -54,14 +56,15 @@ cd food-delivery
 
 ## 2. Setup the Backend
 cd server
+
 npm install
 
---Create .env file
+#### Create .env file
 echo "MONGO_URI=mongodb://localhost:27017/fooddelivery
 JWT_SECRET=your_super_secret_key_here
 PORT=5000" > .env
 
---Start server
+#### Start server
 npm run dev
 
 ## 3. Seed the Menu (one-time)
