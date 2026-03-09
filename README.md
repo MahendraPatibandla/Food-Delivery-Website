@@ -88,10 +88,15 @@ The app will open at http://localhost:3000
 ## 🎨 Tech Stack
 
 Frontend: React 18, React Router v6, CSS-in-JS
+
 Backend: Node.js, Express.js
+
 Database: MongoDB, Mongoose ODM
+
 Auth: JWT, bcryptjs
+
 Fonts: Syne (headings), DM Sans (body)
+
 Design: Custom dark theme, CSS animations
 
 
